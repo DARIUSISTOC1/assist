@@ -1,13 +1,13 @@
 {
   "steam": {
     "type": "shortcut",
-    "path": "C:\\Users\\dariu\\Desktop\\Nouveau dossier (2)\\Steam.exe",
+    "path": "C:\\Users\\%USERNAME%\\Desktop\\Nouveau dossier (2)\\Steam.exe",
     "keywords": ["steam", "lance steam", "ouvre steam"]
   },
 
   "opera gx": {
     "type": "exe",
-    "path": "C:\\Users\\dariu\\Desktop\\Navigateur Opera GX.lnk",
+    "path": "C:\\Users\\%USERNAME%\\Desktop\\Navigateur Opera GX.lnk",
     "keywords": ["opéra gx", "gx", "opéra", "g x", "opera gx", "opera g x"]
   },
 
@@ -43,7 +43,7 @@
 
   "osu": {
     "type": "exe",
-    "path": "C:\\Users\\dariu\\AppData\\Local\\osu!\\osu!.exe",
+    "path": "C:\\Users\\%USERNAME%\\AppData\\Local\\osu!\\osu!.exe",
     "keywords": ["osu", "osou", "o s u", "o s o u"]
   },
 
