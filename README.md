@@ -1,6 +1,6 @@
 # BYBO ASSISTANT
 
-> 🎤 Offline Voice Assistant to control your PC with your voice
+> Offline Voice Assistant to control your PC with your voice <br>
 > "Bybo" is the name of my PC, you can change it if you want
 
 ---
