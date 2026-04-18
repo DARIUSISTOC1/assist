@@ -1,40 +1,27 @@
 # BYBO ASSISTANT
 
 > 🎤 Offline Voice Assistant to control your PC with your voice
+> "Bybo" is the name of my PC, you can change it if you want
 
 ---
 
-## Structure du projet / structure of the project
+## Structure du projet / Structure of the project
 
 ```bash
 assist/
-├── assistant.py        # Code principal de l'assistant / principal code of assistant
-├── apps.json           # Configuration des applications et jeux / configuration of game and apps
-├── model/              # Modèle vocal Vosk (à télécharger) / model voc vosk (to download)
+├── assistant.py        # Code principal de l'assistant / main assistant code
+├── apps.json           # Configuration des applications / apps configuration
+├── model/              # Modèle vocal Vosk (à télécharger) / Vosk model (to download)
 │   └── ...
 ├── README.md           # Documentation
 ```
 
 ---
 
-
 <details>
 <summary>🇫🇷 Version Française (cliquer pour ouvrir)</summary>
 
 ---
-
-Structure du projet
-bybo-assistant/
-├── assistant.py        # Code principal de l'assistant
-├── apps.json           # Configuration des applications et jeux
-├── model/              # Modèle vocal Vosk (à télécharger)
-│   ├── am/
-│   ├── conf/
-│   ├── graph/
-│   └── ...
-├── README.md           # Documentation
-
-
 
 ## Fonctionnalités
 
@@ -44,7 +31,7 @@ bybo-assistant/
 * Lancement de jeux Steam
 * Ouverture d'applications
 * 100% local (aucune API)
-* Prend pas beaucoup de place (seulement 70Mo)
+* Prend peu de place (~70Mo)
 
 ---
 
@@ -69,8 +56,8 @@ pip install vosk pyttsx3 sounddevice
 Télécharger le modèle :
 https://alphacephei.com/vosk/models
 
--> `vosk-model-small-fr-0.22`
--> Renommer en `model`
+→ `vosk-model-small-fr-0.22`
+→ Renommer en `model`
 
 ---
 
@@ -79,8 +66,6 @@ https://alphacephei.com/vosk/models
 ```bash
 python assistant.py
 ```
-
-ou lancer directement le fichier python
 
 ---
 
@@ -95,6 +80,36 @@ ou lancer directement le fichier python
   }
 }
 ```
+
+---
+
+## 🔧 Changer le nom de l'assistant (wake word)
+
+Par défaut, l’assistant écoute le mot :
+
+```text
+bybo
+```
+
+### Étapes :
+
+1. Ouvre le fichier `assistant.py`
+2. Trouve cette ligne :
+
+```python
+WAKE_WORDS = ["bybo", "bibo", "bibeau", "vivo"]
+```
+
+3. Remplace par ton nom :
+
+```python
+WAKE_WORDS = ["jarvis", "jarvi", "jarviss"]
+```
+
+👉 Conseil :
+
+* ajoute plusieurs variantes pour éviter les erreurs micro
+* évite les mots trop courts (ex: "ok")
 
 ---
 
@@ -123,7 +138,7 @@ ou lancer directement le fichier python
 * Launch Steam games
 * Open applications
 * 100% local (no API)
-* don't take a lot of place (only 70 Mo)
+* lightweight (~70MB)
 
 ---
 
@@ -145,11 +160,11 @@ AI : Opening steam
 pip install vosk pyttsx3 sounddevice
 ```
 
-👉 Download model:
+Download model:
 https://alphacephei.com/vosk/models
 
-➡️ `vosk-model-small-en-us-0.15`
-➡️ Rename to `model`
+→ `vosk-model-small-en-us-0.15`
+→ Rename to `model`
 
 ---
 
@@ -158,8 +173,6 @@ https://alphacephei.com/vosk/models
 ```bash
 python assistant.py
 ```
-
-or open directly the python file
 
 ---
 
@@ -177,9 +190,39 @@ or open directly the python file
 
 ---
 
+## 🔧 Change the assistant name (wake word)
+
+By default, the assistant listens to:
+
+```text
+bybo
+```
+
+### Steps:
+
+1. Open `assistant.py`
+2. Find this line:
+
+```python
+WAKE_WORDS = ["bybo", "bibo", "bibeau", "vivo"]
+```
+
+3. Replace it with your own name:
+
+```python
+WAKE_WORDS = ["jarvis", "jarvi", "jarviss"]
+```
+
+👉 Tip:
+
+* add variations to improve recognition
+* avoid very short words
+
+---
+
 ## Limitations
 
-* not a true AI
+* not a real AI
 * depends on microphone quality
 * recognition errors possible
 
