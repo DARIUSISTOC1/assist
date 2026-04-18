@@ -4,10 +4,37 @@
 
 ---
 
+## 📂 Structure du projet
+
+```bash
+assist/
+├── assistant.py        # Code principal de l'assistant
+├── apps.json           # Configuration des applications et jeux
+├── model/              # Modèle vocal Vosk (à télécharger)
+│   └── ...
+├── README.md           # Documentation
+```
+
+---
+
+
 <details>
 <summary>🇫🇷 Version Française (cliquer pour ouvrir)</summary>
 
 ---
+
+Structure du projet
+bybo-assistant/
+├── assistant.py        # Code principal de l'assistant
+├── apps.json           # Configuration des applications et jeux
+├── model/              # Modèle vocal Vosk (à télécharger)
+│   ├── am/
+│   ├── conf/
+│   ├── graph/
+│   └── ...
+├── README.md           # Documentation
+
+
 
 ## Fonctionnalités
 
