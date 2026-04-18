@@ -52,7 +52,9 @@ https://alphacephei.com/vosk/models
 ```bash
 python assistant.py
 ```
-ou lancer dirrectement le fichier python
+
+ou lancer directement le fichier python
+
 ---
 
 ## Configuration (`apps.json`)
@@ -129,6 +131,7 @@ https://alphacephei.com/vosk/models
 ```bash
 python assistant.py
 ```
+
 or open directly the python file
 
 ---
