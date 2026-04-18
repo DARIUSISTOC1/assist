@@ -1,0 +1,56 @@
+{
+  "steam": {
+    "type": "shortcut",
+    "path": "C:\\Users\\dariu\\Desktop\\Nouveau dossier (2)\\Steam.exe",
+    "keywords": ["steam", "lance steam", "ouvre steam"]
+  },
+
+  "opera gx": {
+    "type": "exe",
+    "path": "C:\\Users\\dariu\\Desktop\\Navigateur Opera GX.lnk",
+    "keywords": ["opéra gx", "gx", "opéra", "g x", "opera gx", "opera g x"]
+  },
+
+  "plague inc": {
+    "type": "steam",
+    "url": "steam://rungameid/246620",
+    "keywords": ["plague", "plague inc", "inc", "blague", "blague inc"]
+  },
+
+  "plague inc evolved": {
+    "type": "steam",
+    "url": "steam://rungameid/246620",
+    "keywords": ["evolved", "plague evolved"]
+  },
+
+  "fallout 4": {
+    "type": "steam",
+    "url": "steam://rungameid/377160",
+    "keywords": ["fallout", "fallout 4", "fall out", "fall out 4", "fallout4", "fall out4", "fall out 4", "followers", "followers4", "followers 4"]
+  },
+
+  "geometry dash": {
+    "type": "steam",
+    "url": "steam://rungameid/322170",
+    "keywords": ["geometry", "dash"]
+  },
+
+  "bongo cat": {
+    "type": "steam",
+    "url": "steam://rungameid/3419430",
+    "keywords": ["bongo", "bongo cat"]
+  },
+
+  "osu": {
+    "type": "exe",
+    "path": "C:\\Users\\dariu\\AppData\\Local\\osu!\\osu!.exe",
+    "keywords": ["osu", "osou", "o s u", "o s o u"]
+  },
+
+  "roblox": {
+    "type": "exe",
+    "path": "C:\\Users\\dariu\\AppData\\Local\\Roblox\\Versions\\version-9d412f44a6fe4081\\RobloxPlayerBeta.exe",
+    "keywords": ["roblox", "roblocs", "roblocks", "rob lox", "robe", "bloc", "ro", "locke"]
+  }
+
+}
