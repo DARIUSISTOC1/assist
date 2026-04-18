@@ -42,7 +42,8 @@ def normalize(text):
         "steem": "steam",
         "discore": "discord",
         "vs code": "vscode",
-        "v s code": "vscode"
+        "v s code": "vscode",
+        "blague": "plague"
     }
 
     for k, v in fixes.items():
