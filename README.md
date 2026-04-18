@@ -4,13 +4,13 @@
 
 ---
 
-## 📂 Structure du projet
+## Structure du projet / structure of the project
 
 ```bash
 assist/
-├── assistant.py        # Code principal de l'assistant
-├── apps.json           # Configuration des applications et jeux
-├── model/              # Modèle vocal Vosk (à télécharger)
+├── assistant.py        # Code principal de l'assistant / principal code of assistant
+├── apps.json           # Configuration des applications et jeux / configuration of game and apps
+├── model/              # Modèle vocal Vosk (à télécharger) / model voc vosk (to download)
 │   └── ...
 ├── README.md           # Documentation
 ```
